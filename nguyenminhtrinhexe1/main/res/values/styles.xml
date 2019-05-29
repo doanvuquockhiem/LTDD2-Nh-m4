@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Title">
+        <item name="android:background">@drawable/title</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="txtNhap">
+        <item name="android:background">@drawable/txtnhap</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="btnNhap">
+        <item name="android:background">@drawable/btnnhap</item>
+    </style>
+
+    <style name="kieuchu">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="txtNhapSo">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#F44336</item>
+        <item name="android:textSize">20dp </item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+
+    <style name="title">
+        <item name="android:background">@drawable/khungtitle</item>
+        <item name="android:textColor">#FFFF</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="Nhapab">
+        <item name="android:background">@drawable/khungnhap</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#F44336</item>
+        <item name="android:textSize">20dp </item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="enter">
+        <item name="android:background">@drawable/btnenter</item>
+    </style>
+
+
+    <style name="khungds">
+        <item name="android:background">@drawable/khungds</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
