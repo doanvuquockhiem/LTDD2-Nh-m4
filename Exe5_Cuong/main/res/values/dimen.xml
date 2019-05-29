@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop">20dp</dimen>
+    <dimen name="findWidth">200dp</dimen>
+    <dimen name="findMarginLeft">20dp</dimen>
+    <dimen name="btnMarginLeft">230dp</dimen>
+    <dimen name="btnWidth">60dp</dimen>
+
+</resources>

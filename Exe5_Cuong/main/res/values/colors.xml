@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="textFindColor">#FFFFFF</color>
+    <color name="btnTransparent100">#FFFFFFFF</color>
+    <color name="btnTransparent95">#F2FFFFFF</color>
+    <color name="btnTransparent90">#E6FFFFFF</color>
+    <color name="btnTransparent85">#D9FFFFFF</color>
+    <color name="btnTransparent80">#CCFFFFFF</color>
+    <color name="btnTransparent75">#BFFFFFFF</color>
+    <color name="btnTransparent70">#B3FFFFFF</color>
+    <color name="btnTransparent65">#A6FFFFFF</color>
+    <color name="btnTransparent60">#99FFFFFF</color>
+    <color name="btnTransparent55">#8CFFFFFF</color>
+    <color name="btnTransparent50">#80FFFFFF</color>
+    <color name="btnTransparent45">#73FFFFFF</color>
+    <color name="btnTransparent40">#66FFFFFF</color>
+
+
+</resources>
