@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btnColor"
+            android:textColor="@color/btnTextColor"
+            android:layout_marginLeft="5dp"
+            android:text="Line Up" />
+        <Button
+            android:id="@+id/buttonDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btnColor"
+            android:textColor="@color/btnTextColor"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Line Down" />
+        <Button
+            android:id="@+id/buttonColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btnColor"
+            android:textColor="@color/btnTextColor"
+
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Color" />
+        <Button
+            android:id="@+id/buttonUndo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btnColor"
+            android:textColor="@color/btnTextColor"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Undo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <me.panavtec.drawableview.DrawableView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/paintView"/>
+
+    </LinearLayout>
+
+</LinearLayout>
