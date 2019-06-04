@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="oder">Đặt Nước Uống</string>
+    <string name="tennuocuong">Đồ Uống</string>
+    <string name="topping">Topping</string>
+    <string name="ds">Danh Sách Oder</string>
+</resources>
