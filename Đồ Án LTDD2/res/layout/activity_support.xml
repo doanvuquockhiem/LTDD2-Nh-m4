@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_support"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundc"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ae4.nhom_4.SupportActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="● Bắt đầu bạn sẽ có 3000$ trong ví."
+            android:textColor="#1a161a"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="● Cách đặt tiền rất đơn giản, chỉ cần bạn chọn ra số con mình muốn chọn, rồi click vào "
+            android:textColor="#1a161a"
+            android:textSize="15dp" />
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            android:layout_gravity="center"
+            android:src="@drawable/tangtien1" />
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="để tăng giá trị tiền cược thêm 100$( Tổng số tiền đặt không quá số tiền bạn có. Hoặc click vào"
+            android:textColor="#1a161a"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            android:layout_gravity="center"
+            android:src="@drawable/giamtien1" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  để giảm tiền đặt ( Không xuống giá trị âm)."
+            android:textColor="#1a161a"
+            android:textSize="15dp" />        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="● Cuối cùng click vào Xóc để bắt đầu reo ngẫu nhiên 3 quân xúc xắc."
+            android:textColor="#1a161a"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="● Lúc này đặt trúng ăn, đặt sai sẽ mất tiền."
+            android:textColor="#1a161a"
+            android:textSize="15dp" />
+
+
+        <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="● Khi bị 'Phá Sản' bạn hãy tìm đến 'Hỗ Trợ' để nhận thêm tiền 'Trợ Cấp' mà tiếp tục chơi nhé. "
+        android:textColor="#1a161a"
+        android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="● Để bật tắt âm thanh thì bạn click vào"
+            android:textColor="#1a161a"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/shound" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/unshound" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:background="@drawable/backbuttonclick" />
+</LinearLayout>
